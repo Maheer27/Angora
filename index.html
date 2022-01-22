@@ -1,0 +1,642 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+				
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+
+  
+
+      
+
+    <!-- Header  100%-->
+    <header class="pb-5 position-relative">
+        
+        <div class="settings position-fixed bg-dark py-2 px-2  ">
+            <i class="fas fa-cogs"></i>
+        </div>
+        <!-- nav -->
+        <nav class=" bord-line fixed-top d-flex  py-3 navbar-fixed-top ">
+            <div class="container d-flex justify-content-between py-2">
+                <div class=" col-xl-3 col-lg-3  logo d-flex  justify-content-start align-items-end">
+                    <a class="nav-link" href="#Home">
+                        <img src="images/logo-white.png" alt="">
+                    </a>
+                </div>
+                <div class="  navcontent  col-xl-6 col-lg-6  d-flex justify-content-end align-items-center  pr-3">
+                    <ul class="list-unstyled d-flex  align-items-center m-0 ">
+                        <li class="active">
+                            <a class="nav-link active" href="#Home"> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#About"> About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Home"> Team <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Home"> Projects <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Home"> Services <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-link" href="#Home"> Blog <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-link" href="#Home"> Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-link" href="#Home"> <i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-link" href="#Home"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-link" href="#Home"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        <!-- /nav -->
+
+
+        <!--cuarsol  -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- button -->
+                <div class="scroll rounded-pill px-2">
+                    <a class="nav-link" href="#aboutId"><span class="sr-only">(current)</span></a>
+                </div>
+                <!-- /button -->
+                
+                <div class="carousel-item active">
+                    <div class="headcontent w-100 vh-100  overflow-hidden position-relative ">
+                        <img src="images/slideshow-1.jpg" class=" headimage" alt="bg-image">
+                        <h1 class=" text-white text-center"> We build <br>great brands.</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="headcontent w-100 vh-100  overflow-hidden position-relative ">
+                        <img src="images/slideshow-2.jpg" class=" headimage" alt="bg-image">
+                        <h1 class=" text-white text-center"> Focused <Br>on strategy.</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="headcontent w-100 vh-100  overflow-hidden position-relative ">
+                        <img src="images/slideshow-3.jpg" class=" headimage" alt="bg-image">
+                        <h1 class=" text-white text-center"> Advanced in<br>digital works</h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev carousel-head-prev " href="#carouselExampleFade" role="button" data-slide="prev">
+                <i class="fas fa-chevron-left prev "></i>
+            </a>
+            <a class="carousel-control-next carousel-head-next position-absolute " href="#carouselExampleFade" role="button"
+                data-slide="next">
+                <i class="fas fa-chevron-right next "></i>
+            </a>
+        </div>
+        <!--/cuarsol  -->
+    </header>
+    <!--/ Header 100% -->
+
+    <!-- Section About us 100% -->
+    <section id="aboutId" class="about py-5 overflow-hidden">
+        <div class="coinatiner">
+            <div class="abouthead text-center pb-5 position-relative ">
+                <div class="letter position-absolute"> 
+                    <h2>A</h2>
+                </div>
+                <h2>About Us</h2>
+                <div class="line  bg-dark  m-auto   "></div>
+                <p >Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim
+                    <br> auctor, fringilla risus at,
+                    imperdiet turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div class="row">
+                <div class="aboutcontent d-flex justify-content-center align-items-center container ">
+                    <div class="about_p col-md-7 text-muted" >
+                    <p >Pellentesque vel elit egestas, pretium est ac, convallis orci.
+                         Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet
+                          aliquet pharetra. Suspendisse bibendum erat quis 
+                        gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis. </p>
+
+                        <p  >Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris
+                             ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta. </p>
+
+                       <p> Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien,
+                        eu pellentesque ipsum ultricies quis.
+                    </p >
+                </div>
+                    <div class="progrescontent col-md-5  h-100 py-2 ">
+                        <div class="barcontent">
+                        <p>Branding</p>
+                        <div class="progress my-3">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+
+
+                        <p>Web Design</p>
+                        <div class="progress my-3">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"> 95%</div>
+                        </div>
+                        <p>Graphic Design</p>
+
+                        <div class="progress my-3">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <p>Development</p>
+
+                        <div class="progress my-3">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section About us 100% -->
+
+    <!-- Team Section 100% -->
+    <section class="team py-5 overflow-hidden">
+        <div class="container">
+            <div class="teamhead  py-5 text-center pb-5 position-relative ">
+                <div class="letter position-absolute"> 
+                    <h2>O</h2>
+                </div>
+                <h2>Our Team</h2>
+                <div class="line  bg-dark  m-auto   "></div>
+                <p >Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt 
+                   <br> rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+            </div>
+            <div class="teamimg overflow-hidden row d-flex flex-nowrap">
+             <div class="imglayer col-lg-3 p-0 m-1">
+            <div class="aboutimg w-100  p-0 mx-1   ">
+              <div class=" imgtrans "> <img  src="images/member-1.jpg" alt="memberphoto"></div> 
+                <div class="abouticons d-flex align-items-center justify-content-center pb-5 font-weight-bold w-100  ">
+                  <a class="nav-link" href="#Home"> <i class="fab fa-twitter-square text-white"></i></a>
+                  <a class="nav-link" href="#Home"><i class="fab fa-facebook text-white"></i></a>
+                  <a class="nav-link" href="#Home"><i class="fab fa-linkedin-in text-white"></i></a>
+                  <a class="nav-link" href="#Home"><i class="fab fa-dribbble text-white"></i></a>
+                </div>
+              </div>
+              <div class="imgtitle text-center mt-2 ">
+              <h5>Michael Broad</h5>
+              <p class="text-muted">Web Designer</p>
+            </div>
+            </div>
+            <div class="imglayer col-lg-3 p-0 m-1">
+                <div class="aboutimg w-100  p-0 mx-1   ">
+                  <div class=" imgtrans "> <img  src="images/member-2.jpg" alt="memberphoto"></div> 
+                    <div class="abouticons d-flex align-items-center justify-content-center pb-5 font-weight-bold w-100  ">
+                      <a class="nav-link" href="#Home"> <i class="fab fa-twitter-square text-white"></i></a>
+                      <a class="nav-link" href="#Home"><i class="fab fa-facebook text-white"></i></a>
+                      <a class="nav-link" href="#Home"><i class="fab fa-linkedin-in text-white"></i></a>
+                      <a class="nav-link" href="#Home"><i class="fab fa-dribbble text-white"></i></a>
+                    </div>
+                  </div>
+                  <div class="imgtitle text-center mt-2 ">
+                  <h5>Jeannette Crow</h5>
+                  <p class="text-muted">CEO Founder</p>
+                </div>
+                </div>
+            <div class="imglayer col-lg-3  p-0 m-1">
+                    <div class="aboutimg w-100  p-0 mx-1   ">
+                      <div class=" imgtrans "> <img  src="images/member-3.jpg" alt="memberphoto"></div> 
+                        <div class="abouticons d-flex align-items-center justify-content-center pb-5 font-weight-bold w-100  ">
+                          <a class="nav-link" href="#Home"> <i class="fab fa-twitter-square text-white"></i></a>
+                          <a class="nav-link" href="#Home"><i class="fab fa-facebook text-white"></i></a>
+                          <a class="nav-link" href="#Home"><i class="fab fa-linkedin-in text-white"></i></a>
+                          <a class="nav-link" href="#Home"><i class="fab fa-dribbble text-white"></i></a>
+                        </div>
+                      </div>
+                      <div class="imgtitle text-center mt-2 ">
+                      <h5>Martin Lawrence</h5>
+                      <p class="text-muted">App Developer</p>
+                    </div>
+                    </div>
+             <div class="imglayer col-lg-3  p-0 m-1">
+                        <div class="aboutimg w-100  p-0 mx-1   ">
+                          <div class=" imgtrans "> <img  src="images/member-4.jpg" alt="memberphoto"></div> 
+                            <div class="abouticons d-flex align-items-center justify-content-center pb-5 font-weight-bold w-100  ">
+                              <a class="nav-link" href="#Home"> <i class="fab fa-twitter-square text-white"></i></a>
+                              <a class="nav-link" href="#Home"><i class="fab fa-facebook text-white"></i></a>
+                              <a class="nav-link" href="#Home"><i class="fab fa-linkedin-in text-white"></i></a>
+                              <a class="nav-link" href="#Home"><i class="fab fa-dribbble text-white"></i></a>
+                            </div>
+                          </div>
+                          <div class="imgtitle text-center mt-2 ">
+                          <h5>Isabella Dowson</h5>
+                          <p class="text-muted">Creative Director</p>
+                        </div>
+                        </div>  
+
+            </div>
+        </div>
+    </section>
+    <!-- \Team Section 100% -->
+
+    <!-- ideas scetion  100%-->
+    <div class="container py-5">
+        <div class="row my-5  d-flex justify-content-between ">
+        <div class="idea-text col-md-6   ">
+            <p>Do you have any ideas?</p>
+        </div>
+        <div class="but col-md-3 "><button type="button" class="btn idea-btn ">contact us</button></div>
+        </div>
+        </div>
+    <!-- \ideas section 100% -->
+
+    <!-- Services Section  100%-->
+
+    <section class="services">
+        <div class="container ">
+
+            <div class="servicehead  py-5 text-center pb-5 position-relative ">
+                <div class="letter position-absolute"> 
+                    <h2>S</h2>
+                </div>
+                <h2>Services</h2>
+                <div class="line  bg-dark  m-auto   "></div>
+                <p class=" text-muted">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt 
+                   <br> rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+            </div>
+            <div class="row col-md-12 d-flex py-5">
+            <div class="serviceitem col-md-4 my-2 p-2 d-flex  ">
+                <i class=" fa-2x fas fa-laptop serviceicon"></i>
+                <div class="  servicecontent  container ">
+                    <h5>    Responsive Layout </h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2 d-flex  ">
+                <i class="fas fa-2x fa-pencil-ruler serviceicon"></i>
+                <div class="  servicecontent  container ">
+                    <h5>Modern Design </h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class="far fa-flag serviceicon fa-2x"></i>
+                <div class="  servicecontent  container ">
+                    <h5> Font Awesome Icons </h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class="far fas fa-2x serviceicon fa-address-card"></i>
+                <div class="  servicecontent  container ">
+                    <h5>    Ajax Portfolio </h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class="fa-2x fas fa-cog  serviceicon"></i>
+                <div class="  servicecontent  container ">
+                    <h5>  Color Options </h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+            </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class="fas fa-headset fa-2x serviceicon"></i>
+                <div class="  servicecontent  container ">
+                    <h5>Audio Support</h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class=" fa-2x serviceicon far fa-list-alt"></i>
+                <div class="  servicecontent  container ">
+                    <h5>Well Documented</h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class=" fa-2x serviceicon fas fa-video"></i>
+                    <div class="  servicecontent  container ">
+                    <h5> Background Videos</h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            <div class="serviceitem col-md-4 my-2 p-2  d-flex">
+                <i class="fas fa-sliders-h serviceicon fa-2x"></i>
+                <div class="  servicecontent  container ">
+                    <h5>Intro Slider</h5> 
+                    <p class="text-muted w-100">Ferri reque integre mea ut, eu eos vide errem noluise se.
+                        Putent laoreet et ius utroque dissentias ut.</p>
+                </div>
+              
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--/ Services Section100% -->
+
+
+
+
+
+
+
+
+    <!-- Clinet Section NotCompelte -->
+     <section class="Client">
+        <div class="container">
+        <div class="clientehead  py-5 text-center pb-5 position-relative ">
+            <div class="letter position-absolute"> 
+                <h2>C</h2>
+            </div>
+            <h2>Client Reviews</h2>
+            <div class="line  bg-dark  m-auto   "></div>
+            <p class=" text-muted">Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a <br>
+                 gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner">
+              <div id="#yarab" class="carousel-item active">
+                <div class=" clientinfo row justify-content-center">
+                    <div class="carditem col-md-6  d-flex flex-column align-items-center">
+                        <div class="clientcard  d-flex justify-content-center flex-column align-items-center py-3">
+                        <img src="images/client-1.png " class=" clientimg  pb-2 w-25 rounded-circle img-fluid  " alt="">
+                        <h5>Martin Jack</h5>
+                        <p class="text-muted">From Hooli</p>
+                    </div>
+                    <div class="clientcontet col-md-12 text-center ">
+                    <p > <i class="fas fa-quote-left  qoute p-2"></i> Aenean sit amet est orci. Aenean at nisi eget nulla <br> 
+                         lobortis commodo. Nam eget lorem in ex aliquam <br> dapibus. 
+                    <i class="fas fa-quote-right qoute p-2"></i>
+                     </p>
+                </div>
+                    </div>
+        
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" clientinfo row justify-content-center">
+                    <div class="carditem col-md-6  d-flex flex-column align-items-center">
+                        <div class="clientcard  d-flex justify-content-center flex-column align-items-center py-3">
+                        <img src="images/client-2.png " class=" clientimg  pb-2 w-25 rounded-circle img-fluid  " alt="">
+                        <h5>Martin Jack</h5>
+                        <p class="text-muted">From Hooli</p>
+                    </div>
+                    <div class="clientcontet col-md-12 text-center ">
+                    <p > <i class="fas fa-quote-left  qoute p-2"></i> Aenean sit amet est orci. Aenean at nisi eget nulla <br> 
+                         lobortis commodo. Nam eget lorem in ex aliquam <br> dapibus. 
+                    <i class="fas fa-quote-right qoute p-2"></i>
+                     </p>
+                </div>
+                    </div>
+        
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class=" clientinfo row justify-content-center">
+                    <div class="carditem col-md-6  d-flex flex-column align-items-center">
+                        <div class="clientcard  d-flex justify-content-center flex-column align-items-center py-3">
+                        <img src="images/client-3.png " class=" clientimg  pb-2 w-25 rounded-circle img-fluid  " alt="">
+                        <h5>Martin Jack</h5>
+                        <p class="text-muted">From Hooli</p>
+                    </div>
+                    <div class="clientcontet col-md-12 text-center ">
+                    <p > <i class="fas fa-quote-left  qoute p-2"></i> Aenean sit amet est orci. Aenean at nisi eget nulla <br> 
+                         lobortis commodo. Nam eget lorem in ex aliquam <br> dapibus. 
+                    <i class="fas fa-quote-right qoute p-2"></i>
+                     </p>
+                </div>
+                    </div>
+        
+                </div>
+              </div>
+    
+            <a class="carousel-control-next clientcard  rounded-circle carousel-card p-0" href="#carouselExampleControls" role="button" data-slide="next">
+                <img src="images/client-2.png " class="rounded-circle img-fluid  " alt="">
+            </a>
+            <a class="carousel-control-prev clientcard  rounded-circle carousel-card2 p-0" href="#carouselExampleControls" role="button" data-slide="prev">
+                <img src="images/client-3.png " class="rounded-circle img-fluid  " alt="">
+            </a>
+          </div>
+        </div>
+     </div>
+    </section> 
+    <!-- /Client Section NotCompelte -->
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    <!-- GetInTouch  Section 100%compelte -->
+    <div class="contact py-5  position-relative">
+        <div class="container">
+        <div class="clientehead  py-5 text-center pb-5 position-relative ">
+            <div class="letter position-absolute"> 
+                <h2>G</h2>
+            </div>
+            <h2>Get In Touch</h2>
+            <div class="line  bg-dark  m-auto   "></div>
+            <p >Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, <br> fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.</p>
+        </div>
+  
+                <div class="row py-5">
+                    <div class=" conactcontent col-md-6 ">
+                        <h2 class="col-md-12 font-weight-bold">Get answers and advices from professional consultants.</h2>
+                        <div class="col-md-12 d-flex py-4 getcontent ">
+                            <i class="far fa-map mb-1 py-2 fa-2x serviceicon"></i>
+                            <div class="container">
+                                <h5 class="hoverh5 font-weight-bolder">Address</h5>
+                                <p class="text-muted">1650 Lombard Street, San Francisco, CA 94123</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12 d-flex py-4 getcontent">
+                            <i class="fas fa-mobile-alt serviceicon mb-1 py-2 fa-2x"></i>
+                            <div class="container">
+                                <h5 class="hoverh5 font-weight-bolder">Phone</h5>
+                                <p class="text-muted">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12 d-flex py-4 ">
+                            <i class="far fa-envelope serviceicon mb-1 py-2 fa-2x"></i>
+                            <div class="container">
+                                <h5 class="hoverh5 font-weight-bolder">Say Hello</h5>
+                                <p class="text-muted">[@gmail.com]</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group col-md-12 py-3">
+                            <input type="text" id="name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group col-md-12 py-3">
+                            <input type="email" id="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="form-group col-md-12 py-3">
+                            <input type="number" id="number" class="form-control" placeholder="Phone Number">
+                        </div>
+                            <div class="col-md-12 py-3">
+                                <div class="form-group">
+                                    <textarea name="massage" id="user-massage" class="form-control" cols="20" rows="4" placeholder="Your Massage"></textarea>
+                                </div>
+                            </div>
+                            <div >
+                                <div class="but col-md-3 "><button type="button" class="btn contact-btn "> <i class="fas mr-2 fa-paper-plane"></i>Send Massage</button></div>
+                            
+                                <!-- <button type="button" class="btn btn-default p-2 text-center "><i class="fas mr-2 fa-paper-plane"></i>Send Massage </button> -->
+                                </div>
+                                </div>
+                            </div>
+        </div>
+        <div class="btnUp position-absolute rounded-circle d-flex justify-content-center align-items-center" >
+        <a href="#"><i class="fas upicon text-white m-auto text-center fa-angle-up"></i></a>
+        </div>
+
+     </div>
+    <!--/ GetInTouch Section 100% compelte -->
+
+
+
+    <!-- section footer 100% Complete -->
+    <div class="footer position-relative  py-5 overflow-hidden">
+   
+        <div class="layerb">
+            <img src="images/dotted-map.png" class="image-map position-absolute " alt="">
+            <img src="images/dotted-map.png" class="image-map2 position-absolute " alt="">
+            <img src="images/dotted-map.png" class=" image-map3 position-absolute " alt="">
+
+
+        <div class="container">
+            <div class="row">
+                    <div class=" footerlogo col-md-12  py-5 d-flex justify-content-center">
+                        <img src="images/icon.png" class="img-fluid" alt="">
+                    </div>
+                    <div class=" footerContent col-md-12 d-flex justify-content-center">
+                    <div class="footerCard col-md-3 text-white">
+                        <h5>Contact Info</h5>
+                        <p class="text-muted">1650 Lombard Street,<br>
+                        San Francisco, CA 94123</p>
+                        <p>+1 (415) 876-3250<br> [email protected]<p>
+                    </div>
+                    <div class=" footerCard col-md-3 text-white d-flex flex-column">
+                        <h5>Useful Links</h5>
+                        <a class="  footerlink " href="#Home">Support</a>
+                        <a class="  footerlink " href="#Home">Privacy Policy</a>
+                        <a class="  footerlink " href="#Home">Terms & Conditions</a>
+                        <a class="  footerlink " href="#Home">Affiliate Program</a>
+                        <a class="  footerlink " href="#Home">Careers</a>
+                    </div>
+                    <div class=" footerCard col-md-3 text-white d-flex flex-column">
+                        <h5>Recent Posts</h5>
+
+                        <a class="  footerlink " href="#Home"> Sunset in Venice </a>
+                        <a class="  footerlink " href="#Home"> Aerial View of Village </a>
+                        <a class="  footerlink " href="#Home">Lighted Concrete City</a>
+                        <a class="  footerlink " href="#Home">The Little Ghost </a>
+                        <a class="  footerlink " href="#Home">oyal Oats ft. Waldo</a>
+                    </div>
+                    <div class=" footerCard col-md-3 text-white row">
+                        <h5>Popular Tags</h5>
+                        <div class="row ">
+
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> HTML5 </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> CSS3 </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> jQyery </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> UX /UI</a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> Web </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> Graphic </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> Design </a>
+                         <a class=" btn footerbtn px-3 py-1 m-1" href="#Home"> Deveopment </a>
+                            
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <!-- /section footer 100% Complete -->
+
+
+<!-- section footer2 100% Complete -->
+
+        <div class="footer2 py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 row icon-content d-flex align-items-center ">                        
+                        <a class="  footerIcon " href="#Home"><i class="fab fa-twitter"></i></a>
+                        <a class="  footerIcon " href="#Home"><i class="fab fa-facebook"></i></a>
+                        <a class="  footerIcon " href="#Home"><i class="fab fa-instagram"></i></a>
+                        <a class="  footerIcon " href="#Home"><i class="fas fa-basketball-ball"></i></a>
+                        <a class="  footerIcon " href="#Home"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                        <div class="col-md-6 row d-flex justify-content-end align-items-center">
+                        
+                        <p class="text-white">Copyright ©️ 2020<a class=" mx-2 footerlink " href="#Home">Angora</a>  </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+<!-- section foote2 100% Complete -->
+
+
+
+</body>
+
+</html>

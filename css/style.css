@@ -1,0 +1,562 @@
+.settings
+{
+    top: 18%;
+    left: 0%;
+    width: 3%;
+    height: 6%;
+    z-index: 2;
+    border-bottom-right-radius: 7% ;
+    border-top-right-radius: 7%;
+    color: white;
+    background-color: #1f2528 !important;
+    font-size: 18px;
+}
+.bord-line
+{
+border-bottom: solid 1px #666666;
+}
+nav .navcontent a
+{
+    transition: all .5s;
+    color: white;
+    font-size: 15px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+}
+nav .navcontent a:hover ,nav .navcontent a.active
+{
+    color: #f25454;
+}
+
+nav ul li a 
+{
+    color:white;
+} 
+.headimage
+{
+    width: 100%;
+    height: 100%;
+
+}
+.headcontent h1 
+{
+position: absolute;
+z-index: 1;
+top: 40%;
+left: 30%;
+font-size: 70px;
+font-weight: 800;
+font-family: "Poppins", sans-serif;
+line-height: 90%;
+width: 40%;
+}
+
+
+
+
+.carousel-inner .scroll{
+    position: absolute;
+    width: 26px;
+    height: 40px;
+    left: 50%;
+    bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+  
+    z-index: 100;
+    
+}
+.carousel-inner .scroll::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    opacity: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.459);
+    animation: scroll 3s infinite  ;
+    
+    
+}
+@keyframes scroll{
+    0%{bottom: 10px; opacity: 0; }
+    15%{bottom: 15px; opacity: 0; }
+    45%{bottom: 25px; opacity: 0;}
+    60%{bottom: 25px; opacity: 1;}
+    100%{bottom: 10px; opacity: 0;}
+}
+.carousel-inner .scroll:hover{
+    border: 1px solid #f2545485;
+}
+.carousel-inner .scroll:hover::after{
+    background-color: #f2545483;
+}
+
+
+
+
+
+
+
+.carousel-head-next
+{
+    top: 40%;
+    left: 0%;
+    width: 4%;
+    border: solid 1.5px white ;
+    background-color: transparent !important;
+    border-top-right-radius: 5%;
+    height: 8%;
+    transition: all .5s;
+}
+.carousel-head-prev
+{
+    top: 48%;
+    left: 0%;
+    width: 4%;
+    border: solid 1.5px white ;
+    background-color: transparent !important;
+    border-bottom-right-radius: 5%;
+    height: 8%;
+    transition: all .5s;
+}
+.carousel-head-prev:hover
+{
+    background-color: white !important;
+}
+.next,.prev{
+    font-size: 20px;
+    color:white !important;
+}
+.carousel-head-prev:hover .prev
+{
+color: #f25454 !important;}
+.carousel-head-next:hover
+{
+    background-color: white  !important;
+    
+}
+.carousel-head-next:hover .next
+{
+   color: #f25454 !important;
+    
+}
+.line
+{
+    height:1.2px;
+    width:3%;
+    color: #282828;
+    margin-bottom: 20px;
+    transition: all 1s;
+
+}
+.abouthead:hover .line ,.teamhead:hover .line ,
+.servicehead:hover .line ,.clientehead:hover .line
+{
+    width:5%
+}
+
+.about
+{
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.abouthead h2 ,.teamhead h2 ,.servicehead h2,.clientehead h2{
+    font-size:38px ;
+    font-weight: 700;
+    color: #282828;
+} 
+
+.abouthead p,.teamhead p,.servicehead p,.clientehead p 
+{
+    font-size: 18px;
+    color: #999;
+    font-weight: 400;
+}
+
+.aboutcontent,.teamcontent,.servicecontent,.clientcontet p 
+{
+    font-size:14px;
+    color :#666 !important;
+    line-height: 1.75em;
+}
+.clientcontet p 
+{
+    font-size: 20px;
+}
+.progress
+{
+    height: 10px;
+    
+}
+.progress-bar
+{
+    background-color:#f25454;
+}
+.progrescontent p 
+{
+    font-weight:  600;
+    font-size: 14px;
+}
+.letter
+{
+    top: -10%;
+    left: 48%;
+
+}
+.letter h2
+{
+    opacity: .1;
+    font-size: 70px;
+    line-height: 50px;
+    font-weight: 700;
+   font-family:  "Poppins", sans-serif;
+}
+.line
+{
+    transition:  all .5s;
+}
+.teamhead .letter 
+{
+    top:18%
+}
+.clientehead .letter
+{
+    top:18%
+}
+.servicehead .letter
+{
+    top:14%
+}
+
+
+.aboutimg{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.imglayer:hover .abouticons
+{
+  
+    opacity: 1;
+    background-color: rgba(242, 84, 84, 0.85);
+ }
+ .imglayer:hover .imgtitle h5{
+    color: rgba(242, 84, 84);
+ }
+ 
+ .aboutimg:hover .imgtrans
+ {
+    transform: scale(1.1);
+ }
+ .imgtrans
+ {
+     transition: all .5s;
+ }
+
+
+ .abouticons
+{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    top: 0%;
+    transition: all 1s;
+}  
+.imgtitle 
+{
+    line-height: 10px;
+}
+.idea-text{
+    left: 100px;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.idea-btn{
+    background-color: #f25454;
+    color: white;
+    width: 135px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 5%;
+   
+    
+}
+
+.contact-btn 
+{
+    background-color: #f25454;
+    color: white;
+    width: 185px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 5%;
+
+}
+
+
+.btn-primary{
+   background-color: #f25454;
+   font-size: 14px;
+   border-radius: 3px;
+   
+
+}
+.idea-btn:hover ,.contact-btn:hover
+{
+    background-color: rgba(242, 84, 84, 0.85);
+    color:white;
+}
+.services
+{
+   font-family:  "Poppins", sans-serif;
+background-color: #fafafa;
+}
+.serviceitem h5
+{
+    font-size: 20px;
+}
+.serviceicon 
+{
+    font-size: 25px !important;
+ color: #f25454 ;    
+}
+.servicecontent h5:hover
+{
+    color: #f25454 ;    
+
+}
+.servicecontent h5 
+{
+    transition: all .5s;
+    font-weight: 520;
+    color:#282828;
+}
+.servicecontent p
+{
+    color:#666  !important;
+    font-size: 14px;
+}
+
+
+
+
+
+.contact
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+
+
+.clientcard
+{
+    line-height: 5px;
+}
+.clientimg
+{
+    width: 40% !important;
+}
+
+.clientcontet
+{
+    color: #666;
+    line-height: 15px;
+
+}
+.qoute
+{
+    font-size: 25px;
+}
+
+
+.contact{
+    background-color: #fafafa;
+}
+.btnsend{
+width: 180px;
+height: 50px;
+}
+.conactcontent h2
+{
+    font-size: 35px;
+    word-spacing:5px ;
+    line-height: 35px;
+}
+.contact-card
+{
+    line-height: 10px;
+}
+
+.getcontent
+{
+    
+    border-bottom:  solid 0.1px #999;
+
+}
+.getcontent:hover .hoverh5
+{
+    color: #f25454 !important;
+    
+}
+
+.touchbtn
+{
+    background-color: #f25454;
+    color: white !important;
+    width: 200px !important;
+    height: 40px !important;
+}
+.btn-default
+{
+    color: #fff;
+}
+
+
+
+.footer{
+    background-color: #222
+}
+.footerContent
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.footerContent h5
+{
+    font-size:20px !important;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+.footerContent p{
+    color: #b0b0b0 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.boot2{
+    background-color: transparent!important;
+    width: 30%;
+}
+.image-map{
+    width: 35%;
+    top: 5%;
+}
+.image-map2{
+    width: 35%;
+    top: 5%;
+    left: 35%;
+}
+.image-map3{
+    width: 35%;
+    top: 5%;
+    left:70%;
+}
+.footer2{
+    background-color: #1a1a1a;;
+}
+.whitey{
+    color: white;
+}
+
+.form-group ::placeholder
+{
+color: #a6a6a6;
+}
+
+
+.footerbtn
+{
+   border:  1px solid #b0b0b0;
+    border-radius: 8%;
+    color: #b0b0b0;
+    font-size: 13px;
+}
+
+.footerbtn:hover 
+{
+    color: #f25454;
+    border: #f25454 solid 1px;
+}
+.footerlink:hover
+{
+    color: #f25454 !important;
+    text-decoration: none;    
+}
+.footerlink
+{
+    color: #b0b0b0 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    transition: all .5s;
+}
+
+.btnUp
+{
+    bottom:-3%;
+    left: 48%;
+    z-index: 500;
+    width: 50px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: rgba(242, 84, 84, 0.5);
+
+}
+.btnUp:hover
+{
+background-color:#f25454 ;
+}
+.upicon
+{
+    font-size: 24px;
+}
+
+.footerIcon{
+    margin: 10px;
+    color: white;
+}
+.footerIcon:hover{
+    color:#f25454;
+}
+.navbar-fixed-top.scrolled {
+    background-color:#b0b0b0 !important;
+    transition: background-color 200ms linear;
+  }
+
+
+
+ .carousel-card
+  {
+      opacity: .5;
+      width: 10%;
+      height: 20%;
+top: 10%;      right: 30%;
+
+
+  }
+
+  .carousel-card2
+  {
+      opacity: .5;
+      width: 10%;
+      height: 20%;
+top:10%;      left: 30%;
+
+
+  }
+
